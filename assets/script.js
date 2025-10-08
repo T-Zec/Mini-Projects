@@ -6,9 +6,13 @@ const overlay = document.getElementById('overlay');
 fetch('projects.json')
     .then(response => response.json())
     .then(data => {
-        data.projects.forEach(project => {
+        const base = window.location.origin + window.location.pathname.replace(/index\.html$/, '');
+        data.projects.forEach(project => {            
             const li = document.createElement('LI');
             const a = document.createElement('A');
+            // Ensure the URL is absolute
+            const fullUrl = new URL(project.url, base).href;
+            a.href = fullUrl;
             a.textContent = project.name;
             a.setAttribute('onclick', 'showProject(' + JSON.stringify(project) + ')');
             a.setAttribute('target', 'preview');
