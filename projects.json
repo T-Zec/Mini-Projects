@@ -1,0 +1,16 @@
+{
+   "projects": [
+     {
+       "name": "Weather Report App",
+       "url": "/Weather Report App/index.html"
+     },
+     {
+       "name": "Password Generator",
+       "url": "/Password Generator/index.html"
+     },
+     {
+       "name": "QR Code Generator",
+       "url": "/QR Code Generator/index.html"
+     }
+   ]
+}

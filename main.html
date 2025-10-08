@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Navigation Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <div class="container">
+        <!-- Hamburger Menu Button -->
+        <button class="menu-toggle" id="menuBtn">
+            <!-- ☰ -->
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <h2>Mini Project Links</h2>
+            <ul>
+                <!-- <li><a onclick="showProject()" target="preview">Weather App</a></li> -->
+            </ul>
+        </aside>
+
+        <!-- Overlay -->
+         <div class="overlay" id="overlay">
+         </div>
+
+        <!-- Preview Area -->
+        <main class="preview">
+            <iframe name="preview" id="preview" src="" frameborder="0"></iframe>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</html>
