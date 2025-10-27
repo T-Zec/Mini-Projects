@@ -17,7 +17,8 @@
         </div>
     </div>
     <script>
-        const API_URL = "https://api.quotable.io/random";
+        const API_URL = "http://api.quotable.io/random";
+        const API_URL2 = "https://api.quotable.io/random"
         const quote = document.getElementById("quote");
         const author = document.getElementById("author");
 
@@ -32,7 +33,8 @@
             window.open("https://x.com/intent/tweet?text=" + quote.innerHTML + "---- by " + author.innerHTML, "X Post Window", "width=600, height=300");
         }
 
-        getQuote(API_URL);        
+        getQuote(API_URL); 
+        getQuote(API_URL2);
     </script>
 </body>
 </html>
