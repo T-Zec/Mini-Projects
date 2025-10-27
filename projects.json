@@ -11,6 +11,10 @@
      {
        "name": "QR Code Generator",
        "url": "./projects/QR-Code-Generator/index.html"
+     },
+     {
+       "name": "Quote Generator",
+       "url": "./projects/Quote-Generator/index.html"
      }
    ]
 }
