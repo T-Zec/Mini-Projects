@@ -15,6 +15,10 @@
      {
        "name": "Quote Generator",
        "url": "./projects/Quote-Generator/index.html"
+     },
+      {
+       "name": "Pop-up Page",
+       "url": "./projects/Pop-Up-Page/index.html"
      }
    ]
 }
